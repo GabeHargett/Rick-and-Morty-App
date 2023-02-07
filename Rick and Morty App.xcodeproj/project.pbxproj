@@ -77,6 +77,7 @@
 				77B77DBF299182C300587ED4 /* Resources */,
 				77B77DBE299182B900587ED4 /* Managers */,
 				77B77DBC2991829A00587ED4 /* ViewModels */,
+				77B77DD62992D9AB00587ED4 /* API */,
 				77B77DBB2991828800587ED4 /* Views */,
 				77B77DBA2991827B00587ED4 /* Models */,
 				77B77DB92991825E00587ED4 /* Controllers */,
@@ -138,9 +139,6 @@
 		77B77DC6299184EA00587ED4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				77B77DD02992D28800587ED4 /* RMService.swift */,
-				77B77DD22992D29C00587ED4 /* RMRequest.swift */,
-				77B77DD42992D4E300587ED4 /* RMEndpoint.swift */,
 				77B77DA929917D4700587ED4 /* RMTabViewController.swift */,
 				77B77DC72991865200587ED4 /* RMCharacterViewController.swift */,
 				77B77DC92991866A00587ED4 /* RMLocationViewController.swift */,
@@ -148,6 +146,16 @@
 				77B77DCE299186A700587ED4 /* RMEpisodeViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		77B77DD62992D9AB00587ED4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				77B77DD02992D28800587ED4 /* RMService.swift */,
+				77B77DD22992D29C00587ED4 /* RMRequest.swift */,
+				77B77DD42992D4E300587ED4 /* RMEndpoint.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
