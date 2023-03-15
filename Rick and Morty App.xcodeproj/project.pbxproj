@@ -22,6 +22,7 @@
 		77B77DD12992D28800587ED4 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B77DD02992D28800587ED4 /* RMService.swift */; };
 		77B77DD32992D29C00587ED4 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B77DD22992D29C00587ED4 /* RMRequest.swift */; };
 		77B77DD52992D4E300587ED4 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B77DD42992D4E300587ED4 /* RMEndpoint.swift */; };
+		77B77DD8299EB2C200587ED4 /* RMGetCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B77DD7299EB2C200587ED4 /* RMGetCharactersResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		77B77DD02992D28800587ED4 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		77B77DD22992D29C00587ED4 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		77B77DD42992D4E300587ED4 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		77B77DD7299EB2C200587ED4 /* RMGetCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetCharactersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				77B77DC0299183DC00587ED4 /* RMLocation.swift */,
 				77B77DC22991843300587ED4 /* RMCharacter.swift */,
 				77B77DC42991844500587ED4 /* RMEpisode.swift */,
+				77B77DD7299EB2C200587ED4 /* RMGetCharactersResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				77B77DC1299183DC00587ED4 /* RMLocation.swift in Sources */,
 				77B77DC32991843300587ED4 /* RMCharacter.swift in Sources */,
 				77B77DD32992D29C00587ED4 /* RMRequest.swift in Sources */,
+				77B77DD8299EB2C200587ED4 /* RMGetCharactersResponse.swift in Sources */,
 				77B77DC82991865200587ED4 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
